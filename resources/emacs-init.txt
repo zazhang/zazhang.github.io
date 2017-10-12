@@ -1,4 +1,7 @@
-;; 20170829
+;; 20171008
+
+;; Set default find folder path, mainly for Windows
+(setq default-directory "~/dropbox/workspace/")
 
 ;; Set font size, 1 = 0.01pt, 160 = 16pt
 (set-face-attribute 'default (selected-frame) :height 220)
@@ -188,4 +191,8 @@
 ;(setq ispell-personal-dictionary "C:/path/to/your/.ispell")
 (require 'ispell)
 (global-set-key (kbd "<f8>") 'ispell-word)
-(global-set-key (kbd "C-<f8>") 'flyspell-mode)
+(global-set-key (kbd "C-<f6>") 'flyspell-mode)
+
+
+;; git gutter
+(global-git-gutter-mode +1)
