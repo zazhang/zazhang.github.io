@@ -1,209 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home - Zhizun Zhang</title>
+    <title>Zhizun Zhang</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="assets/css/stylish-portfolio.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <div class="brand">Zhizun Zhang</div>
-    <div class="address-bar">Shanghai, China | New York, NY </div>
-
+  <body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="project.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Zhizun Zhang</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Blog</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Project</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
 
-    <div class="container">
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Zhizun Albert Zhang</h1>
+        <h3 class="mb-5">
+          <em>Welcome to My Website</em>
+        </h3>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
 
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
         <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/albert.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <a href="project.html#sdg">
-                                    <img class="img-responsive img-full" src="img/sdg.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="project.html#ontology">
-                                    <img class="img-responsive img-full" src="img/ontology.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>Hi, I'm</small>
-                    </h2>
-                    <h1 class="brand-name">Zhizun</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>An
-                            <strong>Active Learner</strong> and <strong>Researcher</strong>
-                        </small>
-                    </h2>
-                </div>
-            </div>
+          <div class="col-lg-10 mx-auto">
+            <h2>I'm a researcher working on systemic risk, complex system, and artificial intelligence.</h2>
+            <p class="lead mb-5">  </p> 
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#blog">My Blogs</a>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">My research @ 
-                    <strong>Columbia University</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-left" src="img/cris.png" alt="">
-                    <hr class="visible-xs">
-                    <p class="text-left">I got my PhD from Columbia. My research focuses on modeling complex systems and analyzing systemic risk in complex sociotechnical systems.</p>
-                    <p class="text-left">Initially, I was trained as a chemical engineer, however, I was intrigued by the beauty of complex systems  applying systems engineering and process control principles to model multi-level sociotechnical systems, and using artificial intelligence techniques (e.g., machine learning, NLP, semantic reasoning, etc.) to analyze systemic risk.</p>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a href="project.html" class="btn btn-default btn-lg btn-center">Read More</a>
-                    <hr>
-                </div>
-            </div>
+    <!-- Blog -->
+    <section class="content-section bg-primary text-white text-center" id="blog">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Blog</h3>
+          <h2 class="mb-5">Ideas and Tutorials</h2>
         </div>
-
         <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <hr>
-                    <h2 class="intro-text text-center">The Start-up
-                        <strong>COPA</strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/copa.png" alt="">
-                    <hr class="visible-xs">
-                    <p class="text-left">Communicate Orientate Plan Act (COPA) program is a New York based Initiative. The main goal is to provide mentorship for International students studying in the U.S.</p>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <video width="600" height="400" id="sampleMovie" src="resources/copa.mov" controls></video>
-                    <!-- <a href="http://www.ivybond.us/" class="btn btn-default btn-lg">Read More</a> -->
-        <!--        <hr>
-                </div>
-            </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Responsive</strong>
+            </h4>
+            <p class="text-faded mb-0">blah blah</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Redesigned</strong>
+            </h4>
+            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+          </div>
+          <!--
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Favorited</strong>
+            </h4>
+            <p class="text-faded mb-0">Millions of users
+              <i class="fa fa-heart"></i>
+              Start Bootstrap!</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <strong>Question</strong>
+            </h4>
+            <p class="text-faded mb-0">I mustache you a question...</p>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Callout -->
+    <!--
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Welcome to
+          <em>your</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="">Download Now!</a>
+      </div>
+    </section>
+    -->
+
+    <!-- Project -->
+    <section class="content-section" id="project">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Project</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <!--
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stationary</h2>
+                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ice Cream</h2>
+                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Strawberries</h2>
+                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Workspace</h2>
+                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
         </div>
         -->
+      </div>
+    </section>
 
-    </div>
-    <!-- /.container -->
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Useful resources...</h2>
+        <a href="https://scholar.google.com.hk/citations?user=dUp4EZgAAAAJ&hl=en" class="btn btn-xl btn-dark mr-4">My Google Scholar</a>
+        <a href="assets/resources/emacs-init.txt" class="btn btn-xl btn-dark">My Emacs Init</a>
+      </div>
+    </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Zhizun Zhang 2018</p>
-                </div>
-            </div>
-        </div>
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.843837667897!2d-73.96004900000001!3d40.809425300000065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63fdb160ecd%3A0x777223ae2b09f825!2s500+W+120th+St%2C+Columbia+University%2C+New+York%2C+NY+10027!5e0!3m2!1sen!2sus!4v1431634431747"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/zhizun-zhang-643a2928/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <!--
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          -->
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/zazhang">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Zhizun Zhang 2018</p>
+      </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-</body>
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/stylish-portfolio.min.js"></script>
+
+  </body>
 
 </html>
