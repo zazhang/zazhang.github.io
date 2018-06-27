@@ -1055,7 +1055,7 @@ body .markdown-body
 .codehilite .vi{color:teal}
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
-</style><title>tutorials</title></head><body><article class="markdown-body"><h1 id="all-in-one-tutorials">All-In-One Tutorials<a class="headerlink" href="#all-in-one-tutorials" title="Permanent link"></a></h1>
+</style><title>tutorials</title></head><body><article class="markdown-body"><h1 id="all-in-one-tutorial">All-In-One Tutorial<a class="headerlink" href="#all-in-one-tutorial" title="Permanent link"></a></h1>
 <h4 id="author-albert"><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/author" title="GitHub User: author">@author</a>: Albert<a class="headerlink" href="#author-albert" title="Permanent link"></a></h4>
 <hr />
 <h1 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link"></a></h1>
@@ -1218,13 +1218,44 @@ sauerj:
 title:               Zhizun Zhang&#39;s Blog
 tagline:             
 url:                 &quot;https://zazhang.github.io&quot;
-paginate:            1
-baseurl:             &quot;https://zazhang.github.io/blog/&quot;
+paginate:            2
+baseurl:             &quot;https://zazhang.github.io/blog/&quot; # comment out this line when testing locally at http://localhost:4000
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: &quot;\n\n&quot;
+incremental: false
+
+# Markdown processors
+kramdown:
+input: GFM
+hard_wrap: false
+auto_ids: true
+footnote_nr: 1
+entity_output: as_char
+toc_levels: 1..6
+smart_quotes: lsquo,rsquo,ldquo,rdquo
+enable_coderay: false
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 </pre></div></li>
 <li><em>Poole</em> is developed on <em>Jekyll</em> 2. If <em>Jekyll</em> 3 is installed, you need to install <em>Jekyll-paginate</em> and <em>Jekyll-gist</em> separately and include them in the <strong>_config.yml</strong> in order to use <em>Poole</em>.</li>
-<li>Refer <a href="http://romantsegelskyi.github.io/blog/2015/07/26/personal-page-blog/">this post</a> for <em>Poole</em>, <em>Atom</em>, <em>RSS</em>, <em>Google Analytics</em>, and comments section setup.</li>
+<li>Refer <a href="http://romantsegelskyi.github.io/blog/2015/07/26/personal-page-blog/">this post</a> for setting up <em>Poole</em>, <em>Atom</em>, <em>RSS</em>, <em>Google Analytics</em>, and comments section.</li>
 <li>Refer <a href="https://www.taniarascia.com/make-a-static-website-with-jekyll/">this post</a> for pure <em>Jekyll</em> setup and detailed <em>Jekyll</em> structure explanation.</li>
 <li>Refer <a href="https://blog.webjeda.com/create-jekyll-blog/">this post</a> for <em>Jekyll</em> and theme setup.</li>
+</ul>
+<h3 id="blog-editing">Blog Editing<a class="headerlink" href="#blog-editing" title="Permanent link"></a></h3>
+<ul>
+<li>Above configuration uses <em>kramdown</em> for <em>Jekyll</em> markdown processor. The syntax can be found in <a href="https://designaroni.com/journal/basic-jekyll-markdown-and-syntax">this post</a> and <a href="https://kramdown.gettalong.org/syntax.html">this post</a>.</li>
+<li>To use <em>LaTeX</em>-like math equations, you can include <em>MathJax</em> with <em>Jekyll</em>. See <a href="https://github.com/mmistakes/minimal-mistakes/issues/735">this post</a> for an instruction.<ul>
+<li>Basically, only adding the <em>JavaScript</em> snippet to the <code>.markdown</code> post works. All other solutions do not work.</li>
+</ul>
+</li>
 </ul>
 <hr />
 <h1 id="programming">Programming<a class="headerlink" href="#programming" title="Permanent link"></a></h1>
